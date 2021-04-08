@@ -1,0 +1,109 @@
+Package: exfalso
+Architecture: all
+Version: 4.4.0-0~ppa0~quodlibet~stable
+Priority: optional
+Section: sound
+Source: quodlibet
+Maintainer: Ondřej Kuzník <ondra@mistotebe.net>
+Installed-Size: 5775
+Provides: exfalso-py3, quodlibet-plugins
+Depends: python3:any (>= 3.4~), python3-mutagen (>= 1.34), python3-gi (>= 3.18), python3-gi-cairo (>= 3.18), gir1.2-gtk-3.0 (>= 3.18), gir1.2-soup-2.4 (>= 2.52), python3-feedparser
+Recommends: python3-musicbrainzngs (>= 0.5)
+Suggests: libmodplug1, brasero | k3b | xfburn
+Conflicts: exfalso-py3, quodlibet-plugins
+Replaces: exfalso-py3, quodlibet-plugins
+Filename: quodlibet-stable/exfalso_4.4.0-0~ppa0~quodlibet~stable_all.deb
+Size: 1132872
+SHA256: 3b360697997c388756eae1986d7b2440261e7f16ddb6605e11fe3df27098e96e
+SHA512: a5e95b744cb1e0de3e5d22386fed8382ce9215604cae4a9a20222cd891da613b231089d3d13d4f2d7439e6d49828f1b6aa3cc34834f527cdbc2de83b797947ca
+Homepage: http://code.google.com/p/quodlibet/
+Description: audio tag editor for GTK+
+ Ex Falso displays and edits audio metadata tags. Supported formats include
+ MP3, Ogg Vorbis, FLAC, Musepack (MPC), WavPack, and MOD/XM/IT.
+ .
+ A command-line counterpart, Operon, is also distributed as part of this
+ package.
+ .
+ Notable features include:
+  * Freeform tag editing for most supported formats, including ID3v2
+  * Multiple values for tag keys
+  * Flexible rename-by-tags and tag-by-filename patterns
+  * Extensible using simple Python-based plugins
+  * Edit multiple files in several formats at once
+
+Package: python-mutagen
+Architecture: all
+Version: 1.43.0+1-0~ppa1~quodlibet~stable
+Priority: optional
+Section: python
+Source: python2-mutagen
+Maintainer: Tristan Seligmann <mithrandi@debian.org>
+Installed-Size: 702
+Depends: python:any (<< 2.8), python:any (>= 2.7~), python-pkg-resources
+Filename: quodlibet-stable/python-mutagen_1.43.0+1-0~ppa1~quodlibet~stable_all.deb
+Size: 136792
+SHA256: b81ccbf3b81bcca650cad980327652711d59047360fcd2fbc3eb38c8a8a9e39c
+SHA512: 7b021bcfdcbf845f1b2f586061bab4164bee5383d95d1b86cbb5caa51b7a33f75dacbe7181b3e2974c19827e27348a7e24c734a4c87613d7798c0aff867e7a43
+Homepage: http://code.google.com/p/mutagen/
+Description: audio metadata editing library
+ Mutagen is a Python module to handle audio metadata. It supports FLAC,
+ M4A, MP3, Ogg FLAC, Ogg Speex, Ogg Theora, Ogg Vorbis, True Audio, and
+ WavPack audio files. All versions of ID3v2 are supported, and all
+ standard ID3v2.4 frames are parsed. It can read Xing headers to
+ accurately calculate the bitrate and length of MP3s. ID3 and APEv2
+ tags can be edited regardless of audio format. It can also manipulate
+ Ogg streams on an individual packet/page level.
+
+Package: python3-mutagen
+Architecture: all
+Version: 1.45.1+1-0~ppa1~quodlibet~stable
+Priority: optional
+Section: python
+Source: mutagen
+Maintainer: Tristan Seligmann <mithrandi@debian.org>
+Installed-Size: 738
+Depends: python3:any, python3-pkg-resources
+Breaks: python-mutagen (<< 1.43.0-1)
+Filename: quodlibet-stable/python3-mutagen_1.45.1+1-0~ppa1~quodlibet~stable_all.deb
+Size: 145740
+SHA256: 38ef932d1eaf9ce31ee2d64ddc6c724e7fd6bda332fd01d006736da2a1a917fd
+SHA512: dfff08aa653e0536e8322095b976061602276ee1d6084ae21a241c459337b67890103713bc42f6403f96a806d33dc85f740967552aeba6a2fdf04c2998c76c95
+Homepage: https://github.com/quodlibet/mutagen
+Description: audio metadata editing library (Python 3)
+ Mutagen is a Python module to handle audio metadata. It supports FLAC,
+ M4A, MP3, Ogg FLAC, Ogg Speex, Ogg Theora, Ogg Vorbis, True Audio, and
+ WavPack audio files. All versions of ID3v2 are supported, and all
+ standard ID3v2.4 frames are parsed. It can read Xing headers to
+ accurately calculate the bitrate and length of MP3s. ID3 and APEv2
+ tags can be edited regardless of audio format. It can also manipulate
+ Ogg streams on an individual packet/page level.
+ .
+ This package is built for Python 3.
+
+Package: quodlibet
+Architecture: all
+Version: 4.4.0-0~ppa0~quodlibet~stable
+Priority: optional
+Section: sound
+Maintainer: Ondřej Kuzník <ondra@mistotebe.net>
+Installed-Size: 153
+Provides: quodlibet-ext, quodlibet-py3
+Depends: python3:any (>= 3.4~), exfalso (= 4.4.0-0~ppa0~quodlibet~stable), gir1.2-gstreamer-1.0, gir1.2-gst-plugins-base-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-pulseaudio, gir1.2-appindicator3-0.1
+Recommends: python3-dbus, gir1.2-keybinder-3.0, gir1.2-gtksource-3.0, python3-pyinotify, notification-daemon, gir1.2-webkit2-4.0
+Suggests: gstreamer1.0-plugins-bad
+Conflicts: quodlibet-ext, quodlibet-py3
+Replaces: quodlibet-ext, quodlibet-py3
+Filename: quodlibet-stable/quodlibet_4.4.0-0~ppa0~quodlibet~stable_all.deb
+Size: 79516
+SHA256: cc3012834200ef2741617978f01f333eeb46d0aa2584f77f4e2d519f9e60691f
+SHA512: 9b43b6ae07549d8adbd314ced7113a0ae68e9cec19c1df77aecc504f9efe9d1965b65ff68f0b3140fd255b7b2db15d907fdad2d05a3262e72cc8796f6bfc8ef1
+Homepage: http://code.google.com/p/quodlibet/
+Description: audio library manager and player for GTK3
+ Quod Libet is a music management program. It provides several different ways
+ to view your audio library, as well as support for Internet radio and
+ audio feeds. It has extremely flexible metadata tag editing and searching
+ capabilities, using the same interface as Ex Falso.
+ .
+ Supported formats include MP3, Ogg Vorbis, FLAC, Musepack (MPC), WavPack,
+ and MOD/XM/IT.
+

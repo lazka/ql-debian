@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 08 Apr 2021 19:49:58 +0200
+Source: mutagen
+Binary: python3-mutagen
+Architecture: source all
+Version: 1.45.1+1-0~ppa1~quodlibet~stable
+Distribution: quodlibet-stable
+Urgency: medium
+Maintainer: Tristan Seligmann <mithrandi@debian.org>
+Changed-By: Christoph Reiter <reiter.christoph@gmail.com>
+Description:
+ python3-mutagen - audio metadata editing library (Python 3)
+Changes:
+ mutagen (1.45.1+1-0~ppa1~quodlibet~stable) quodlibet-stable; urgency=medium
+ .
+   * unofficial/untested trunk build
+Checksums-Sha1:
+ 587687b9c4ac91460fe3f017409e671eabc9a9af 2156 mutagen_1.45.1+1-0~ppa1~quodlibet~stable.dsc
+ 704583f6bb5c88b45c3fc9e406e4b23d398c0a4d 1288586 mutagen_1.45.1+1.orig.tar.gz
+ 4f2cb3f5886195cbd20b63fce29de20ebc403d1c 1996 mutagen_1.45.1+1-0~ppa1~quodlibet~stable.debian.tar.xz
+ f4cbf4a8c777f1b6b2b775494cb62af33f0bfcde 7250 mutagen_1.45.1+1-0~ppa1~quodlibet~stable_amd64.buildinfo
+ 844ac54526b9d83b5c8de3ce0cd5b5f8fba344f1 145740 python3-mutagen_1.45.1+1-0~ppa1~quodlibet~stable_all.deb
+Checksums-Sha256:
+ 16d811561879177f1a56ad223cd3a16c02d6d9a15280562106bd3079c23ceffb 2156 mutagen_1.45.1+1-0~ppa1~quodlibet~stable.dsc
+ 9dff1e700a90f371459ba2a925cf634604a748e03780d50e17b82a50d094ba05 1288586 mutagen_1.45.1+1.orig.tar.gz
+ eb440aec3a1a44e62fdfe405b6d03d1222debd8f1068998570972e11ec79138e 1996 mutagen_1.45.1+1-0~ppa1~quodlibet~stable.debian.tar.xz
+ 0e343e6dfe11ab87b06433fae8e49d7a7155153b7a9bc07ff4306796c9555aa3 7250 mutagen_1.45.1+1-0~ppa1~quodlibet~stable_amd64.buildinfo
+ 38ef932d1eaf9ce31ee2d64ddc6c724e7fd6bda332fd01d006736da2a1a917fd 145740 python3-mutagen_1.45.1+1-0~ppa1~quodlibet~stable_all.deb
+Files:
+ 8232fa7e3a6530b864e26457be1fc787 2156 python optional mutagen_1.45.1+1-0~ppa1~quodlibet~stable.dsc
+ a41dca95ef37f573a8556df033c30c6f 1288586 python optional mutagen_1.45.1+1.orig.tar.gz
+ f278a456a80828bd4706a4aee0218750 1996 python optional mutagen_1.45.1+1-0~ppa1~quodlibet~stable.debian.tar.xz
+ 43a72d850b39958f3e26ec93cc69788e 7250 python optional mutagen_1.45.1+1-0~ppa1~quodlibet~stable_amd64.buildinfo
+ 7d28c724b5a0424f5b47a4b122914786 145740 python optional python3-mutagen_1.45.1+1-0~ppa1~quodlibet~stable_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE4KoPAx29gP+6V7BtWmLQyrYmSWQFAmBvQoQACgkQWmLQyrYm
+SWSIGBAAhChkGE2F/FVOgRt0dNZc6xQXdJwp0iTAzqBfJkIITjAcqBbVJe2vlXYl
+08sxVI6yTNZQLU2XdFT8TOjFE2bSCHRg8z/Jew/qJ72zg7i7hRA9sFSeLeNgXbuV
+BYF995I4cC7Tn8q1nnXgGdn91jZgKTtX2sFYVpxDIWtGbfNpNdH8TUR34HJotLLp
+9TQomJz7SDIzS3zbX0LYZ3LcqzO1d/IvtWjaSdXFYud7No7Yd2YF3YdfCcO1ou2K
+5BgRlgfxWY1G4Pv5bAlKsz82jupHHjx+ubfttt5mt9rVwM/3AJh9wJlRn2Ngztuw
+vOFpY3hrLswL5NubnQEUlISrdi6PaxK2XIkPjtzikYuYrM4XpJgA+Yzu4s5Fhh5D
+4mNv4kniMqDa6dmMagsm+cwwdAzB0kDXc3kpJbErqYwr4bbpHYF1IBPiSx+nAU0E
+A8h4cQ8wPXX3xzXlIj5TZ78KHSShS5xt0EGGA2EjoOp9rlluC0b6FXBJ5HBU1l1p
+Z6IRm9hqMzQOM92GfzT1/PVNpO8l11Zo55LpO+92hlGKnhOmWvDIKBXjTZ3akcv8
+RR7FbAPSX47GveLfudeRufY8/KGmUgFvwJrT7j5iDLYCyVNEmFBYBSYYjRnGHHKC
+hflRc4f2Aq0Rn56tFOv+4rsaCuQJOJ/WjQYGv8Y9VnkLEE5CiX0=
+=T0Cn
+-----END PGP SIGNATURE-----

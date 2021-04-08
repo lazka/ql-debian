@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 08 Apr 2021 19:51:04 +0200
+Source: python2-mutagen
+Binary: python-mutagen
+Architecture: source all
+Version: 1.43.0+1-0~ppa1~quodlibet~stable
+Distribution: quodlibet-stable
+Urgency: medium
+Maintainer: Tristan Seligmann <mithrandi@debian.org>
+Changed-By: Christoph Reiter <reiter.christoph@gmail.com>
+Description:
+ python-mutagen - audio metadata editing library
+Changes:
+ python2-mutagen (1.43.0+1-0~ppa1~quodlibet~stable) quodlibet-stable; urgency=medium
+ .
+   * unofficial/untested trunk build
+Checksums-Sha1:
+ 897b2b5d18a9a838f09823c8fbf857fc7b2788e4 2283 python2-mutagen_1.43.0+1-0~ppa1~quodlibet~stable.dsc
+ 32f2a1dc9edd2d3bec1ec3cb9bead42971ee9435 1147130 python2-mutagen_1.43.0+1.orig.tar.gz
+ 6f5a1cca9674bacf7e1a447052de9bd5f0808e5f 2000 python2-mutagen_1.43.0+1-0~ppa1~quodlibet~stable.debian.tar.xz
+ 8eb976d40bfb0441d5d4d3be633e76b2b8a21295 136792 python-mutagen_1.43.0+1-0~ppa1~quodlibet~stable_all.deb
+ bf6e5801134025fa1c1ade563154f108e965a535 7608 python2-mutagen_1.43.0+1-0~ppa1~quodlibet~stable_amd64.buildinfo
+Checksums-Sha256:
+ 308897b8206ce9c2ac712d29ce087b12097d636bf7784d636743fd3f753ee743 2283 python2-mutagen_1.43.0+1-0~ppa1~quodlibet~stable.dsc
+ a417108e511bdbb6af507b7c2d67e532b7e1e928431b2e2827ea0ec9682037e3 1147130 python2-mutagen_1.43.0+1.orig.tar.gz
+ ef84466f41c51cfe0240320e6542b855f6103a953053ecbcdf95dd18de3acd39 2000 python2-mutagen_1.43.0+1-0~ppa1~quodlibet~stable.debian.tar.xz
+ b81ccbf3b81bcca650cad980327652711d59047360fcd2fbc3eb38c8a8a9e39c 136792 python-mutagen_1.43.0+1-0~ppa1~quodlibet~stable_all.deb
+ 31d53cdff563aadff3a66d619998823050e47d0ab81610f9244cadcbe7d7c2a5 7608 python2-mutagen_1.43.0+1-0~ppa1~quodlibet~stable_amd64.buildinfo
+Files:
+ b1702631a2ce2999bac23e500f6195dc 2283 python optional python2-mutagen_1.43.0+1-0~ppa1~quodlibet~stable.dsc
+ f56c15287c704ff191ef4fdbeb1f0294 1147130 python optional python2-mutagen_1.43.0+1.orig.tar.gz
+ cefb366461b8314e36dd17becd95a7a2 2000 python optional python2-mutagen_1.43.0+1-0~ppa1~quodlibet~stable.debian.tar.xz
+ 8aae42209a6f678a11cba3310452453e 136792 python optional python-mutagen_1.43.0+1-0~ppa1~quodlibet~stable_all.deb
+ 3f9c51e0e2267e868ee5cfd0d6073554 7608 python optional python2-mutagen_1.43.0+1-0~ppa1~quodlibet~stable_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE4KoPAx29gP+6V7BtWmLQyrYmSWQFAmBvQskACgkQWmLQyrYm
+SWSCGw//YuDtS2jNhh6977apDzbsPuTGpYxIewhyOX395AT96NzDgX4h/TgjkEod
+5gWGRmD5NMOYwvlNF43dPh0EfqU3rR/lMaU2C1zbGWgxWvGz2rpfTsRHdcN9Qpqh
+97liOgfZW9XjZBU+qsh4ULrRksLczQGpZ8wscmK6zE2k4YOJNRBSk1MXySpi/xY1
+YXszuXzNuy09VwX2tMN8BllTRZEDwsvSWmoVqtp1vNYeIPo5HhDDlQqEUSQcccIH
+EjDZxzKWjflD49Mz5a0kc24QLGnkK9bD1Ab9rqC8JLUcHENH6ldjVjRGY8Qzxo28
+ixMInxko/PZI1/BtzpLAZocQFgDM8nmPrXUdwaxXVTiWnKH76gZ5gqPq+MzyyAwd
+XI4OtaTgwMA/3CnKg72EEgxVCDb7tNAUNWBHUAA2bOge0vWOqAtnkcF0kWLxP9u4
+oP/zTMroUe/jw3KCre92G/2n1WxKJbcwPXqvnA3e8rbAyjpxaqRPKPuviqN77ULu
+NpovYLPbLj1upgUH6mjFvDG1shXA8sii0xUpGUb6u1ScfKWk22E21WACGwe78t3T
+vp075pxuVx3CQZPQcihdZq4ohx9YWAak2DcRv0YvK56I78Zxjy0Xt4tjw+XAH0+W
+QZJwZTOz3fMbZ6MjJHjd8aSsU+UkUfaGjrOW6S/0H4hB0wcxuAI=
+=dDXd
+-----END PGP SIGNATURE-----

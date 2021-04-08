@@ -1,0 +1,58 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 08 Apr 2021 19:48:24 +0200
+Source: quodlibet
+Binary: exfalso quodlibet
+Architecture: source all
+Version: 4.4.0-0~ppa0~quodlibet~stable
+Distribution: quodlibet-stable
+Urgency: medium
+Maintainer: Ondřej Kuzník <ondra@mistotebe.net>
+Changed-By: Christoph Reiter <reiter.christoph@gmail.com>
+Description:
+ exfalso    - audio tag editor for GTK+
+ quodlibet  - audio library manager and player for GTK3
+Changes:
+ quodlibet (4.4.0-0~ppa0~quodlibet~stable) quodlibet-stable; urgency=medium
+ .
+   * unofficial/untested trunk build
+Checksums-Sha1:
+ f3e36337498c42bf831ccfaf510051f0265a7035 2128 quodlibet_4.4.0-0~ppa0~quodlibet~stable.dsc
+ c7752c75ce7a61d7c1939563890e8624c03ab2c4 5125439 quodlibet_4.4.0.orig.tar.gz
+ c02dd477b02d7b8fd36b1547d1ea15bb708f9332 2764 quodlibet_4.4.0-0~ppa0~quodlibet~stable.debian.tar.xz
+ 0178f7037fd7fbdbfab03d566c9a9adb653c7c15 1132872 exfalso_4.4.0-0~ppa0~quodlibet~stable_all.deb
+ 6939098e44dba854dbfed86635a9010c62903743 79516 quodlibet_4.4.0-0~ppa0~quodlibet~stable_all.deb
+ 23ceca40aae277e858a5f30c966297fb1bb9b1e8 9992 quodlibet_4.4.0-0~ppa0~quodlibet~stable_amd64.buildinfo
+Checksums-Sha256:
+ 244da1995d34f9a4e2a6c5477b78fed8c15171ca627ac1e3f6af57c5c03378ce 2128 quodlibet_4.4.0-0~ppa0~quodlibet~stable.dsc
+ c9d4f127c44a73fdbdb5264e7a0aa41067a1f0172fe06e8f35216d8fc7bfd56c 5125439 quodlibet_4.4.0.orig.tar.gz
+ 01ed41ac209ef9d8c64818437ed116b575e1f6b1fb8091a96bbad996be0d7afe 2764 quodlibet_4.4.0-0~ppa0~quodlibet~stable.debian.tar.xz
+ 3b360697997c388756eae1986d7b2440261e7f16ddb6605e11fe3df27098e96e 1132872 exfalso_4.4.0-0~ppa0~quodlibet~stable_all.deb
+ cc3012834200ef2741617978f01f333eeb46d0aa2584f77f4e2d519f9e60691f 79516 quodlibet_4.4.0-0~ppa0~quodlibet~stable_all.deb
+ 0a8755a09ce34dd6c1e4864570bc614d023a2deb282c483d74c8f80ddf953d21 9992 quodlibet_4.4.0-0~ppa0~quodlibet~stable_amd64.buildinfo
+Files:
+ 52d854ee6c7c63ff413544842e039c85 2128 sound optional quodlibet_4.4.0-0~ppa0~quodlibet~stable.dsc
+ 2c12457358db1d2a1368c1c7e3de16f8 5125439 sound optional quodlibet_4.4.0.orig.tar.gz
+ 29b23c3640e1839cc70e0e70c0d4bf6c 2764 sound optional quodlibet_4.4.0-0~ppa0~quodlibet~stable.debian.tar.xz
+ b3e4ea92d846cdb3f0f74e254ca56e7d 1132872 sound optional exfalso_4.4.0-0~ppa0~quodlibet~stable_all.deb
+ f33dbe0827d96d45b8c6159873d103cd 79516 sound optional quodlibet_4.4.0-0~ppa0~quodlibet~stable_all.deb
+ 6622289ec14e08b9ec4c1ca130201b25 9992 sound optional quodlibet_4.4.0-0~ppa0~quodlibet~stable_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE4KoPAx29gP+6V7BtWmLQyrYmSWQFAmBvQkIACgkQWmLQyrYm
+SWS2BxAArfNtqxlyp5YJJX2FZ1r9VIq9f7eT5D8O0vXsagWsYg+9nMfFgEh+iPP4
+r8jSf6pMKPC5F4eqNbKVyT4GzMfXMld9ziAY3bA5p4Cb7bfxkxuy7H7nIo3ZGI/z
+/m+vmgOD+k01Wtax0gxhIJpcCCH7CKU9MbEB7gAlHrc4RIPN/8W45ifvW9YTya9A
+2vqO+oD73hMW8szDtVplYmJ4tFQxELE0Sy6ZDz9ZiJu91dE2mtmWcygLDK9ToUTt
+oTzaJLtWjJjP4XkGW5PDpp8y3GxUAjBEZPIcmpzjtsldOZHK5vlGANuvBC+64zot
+nfjmPxMb8T2tstWOCVHFi7Tvjs23Lz8cdnlC7FqKO4bUnNyYC9D85M3yX9YKBKJ9
+Zn0efxWMEdeGy0oXZQqcjc4brkKCN4kL7H+Vc2Tl/Hu0yphSB/XDMQ2bQL7VO5qR
+0VZpNobCRLEx+stygHsn9oNY4ur6LBTj71H1L28nA2oG8CcJG+LmeINAVVXl/iSO
+bbuDVoL8GwW/oVmT047Jq+BdHxniVAbd/2y5+fk+6BJKJ69h+wvfmZ2hHXGWiife
+iScnrOSsbJIjeuRE6AQqqtfh0VEM2WRzMzTDDcfj2lRj6vxyp4GFOa5kC9BdIIhG
+zHnphGYQnmjS8CL64twDEiDwZuwIMr7FjwK/jzKFMDcMrD1d4Xs=
+=Bzhj
+-----END PGP SIGNATURE-----

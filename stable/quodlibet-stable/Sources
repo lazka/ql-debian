@@ -1,0 +1,61 @@
+Package: mutagen
+Format: 3.0 (quilt)
+Binary: python3-mutagen
+Architecture: all
+Version: 1.45.1+1-0~ppa1~quodlibet~stable
+Maintainer: Tristan Seligmann <mithrandi@debian.org>
+Uploaders:  Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 9), dh-python, faad, flac, libc-bin (>= 2.13), oggz-tools, python3-all, python3-setuptools, vorbis-tools
+Homepage: https://github.com/quodlibet/mutagen
+Vcs-Browser: https://salsa.debian.org/python-team/modules/mutagen
+Vcs-Git: https://salsa.debian.org/python-team/modules/mutagen.git
+Directory: quodlibet-stable
+Package-List:
+ python3-mutagen deb python optional arch=all
+Checksums-Sha256:
+ 16d811561879177f1a56ad223cd3a16c02d6d9a15280562106bd3079c23ceffb 2156 mutagen_1.45.1+1-0~ppa1~quodlibet~stable.dsc
+ 9dff1e700a90f371459ba2a925cf634604a748e03780d50e17b82a50d094ba05 1288586 mutagen_1.45.1+1.orig.tar.gz
+ eb440aec3a1a44e62fdfe405b6d03d1222debd8f1068998570972e11ec79138e 1996 mutagen_1.45.1+1-0~ppa1~quodlibet~stable.debian.tar.xz
+
+Package: python2-mutagen
+Format: 3.0 (quilt)
+Binary: python-mutagen
+Architecture: all
+Version: 1.43.0+1-0~ppa1~quodlibet~stable
+Maintainer: Tristan Seligmann <mithrandi@debian.org>
+Uploaders:  Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>, Simon Chopin <chopin.simon@gmail.com>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), faad, flac, libc-bin (>= 2.13), oggz-tools, python-all (>= 2.6.6-3~), python-setuptools, vorbis-tools, dh-python
+Homepage: http://code.google.com/p/mutagen/
+Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/mutagen/trunk/
+Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/mutagen/trunk/
+Directory: quodlibet-stable
+Package-List:
+ python-mutagen deb python optional arch=all
+Checksums-Sha256:
+ 308897b8206ce9c2ac712d29ce087b12097d636bf7784d636743fd3f753ee743 2283 python2-mutagen_1.43.0+1-0~ppa1~quodlibet~stable.dsc
+ a417108e511bdbb6af507b7c2d67e532b7e1e928431b2e2827ea0ec9682037e3 1147130 python2-mutagen_1.43.0+1.orig.tar.gz
+ ef84466f41c51cfe0240320e6542b855f6103a953053ecbcdf95dd18de3acd39 2000 python2-mutagen_1.43.0+1-0~ppa1~quodlibet~stable.debian.tar.xz
+
+Package: quodlibet
+Format: 3.0 (quilt)
+Binary: exfalso, quodlibet
+Architecture: all
+Version: 4.4.0-0~ppa0~quodlibet~stable
+Maintainer: Ondřej Kuzník <ondra@mistotebe.net>
+Uploaders: Christine Spang <christine@debian.org>, Tristan Seligmann <mithrandi@debian.org>
+Standards-Version: 3.9.2.0
+Build-Depends: debhelper (>= 9), dh-python, python3-all (>= 3.4), quilt, libgtk-3-bin
+Homepage: http://code.google.com/p/quodlibet/
+Vcs-Browser: http://git.debian.org/?p=collab-maint/quodlibet.git
+Vcs-Git: git://git.debian.org/git/collab-maint/quodlibet
+Directory: quodlibet-stable
+Package-List:
+ exfalso deb sound optional arch=all
+ quodlibet deb sound optional arch=all
+Checksums-Sha256:
+ 244da1995d34f9a4e2a6c5477b78fed8c15171ca627ac1e3f6af57c5c03378ce 2128 quodlibet_4.4.0-0~ppa0~quodlibet~stable.dsc
+ c9d4f127c44a73fdbdb5264e7a0aa41067a1f0172fe06e8f35216d8fc7bfd56c 5125439 quodlibet_4.4.0.orig.tar.gz
+ 01ed41ac209ef9d8c64818437ed116b575e1f6b1fb8091a96bbad996be0d7afe 2764 quodlibet_4.4.0-0~ppa0~quodlibet~stable.debian.tar.xz
+
