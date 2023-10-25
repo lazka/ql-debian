@@ -1,0 +1,41 @@
+Package: mutagen
+Format: 3.0 (quilt)
+Binary: python3-mutagen
+Architecture: all
+Version: 1.47.0-0~ppa0~quodlibet~stable
+Maintainer: Tristan Seligmann <mithrandi@debian.org>
+Uploaders:  Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 9), dh-python, faad, flac, libc-bin (>= 2.13), oggz-tools, python3-all, python3-setuptools, vorbis-tools
+Homepage: https://github.com/quodlibet/mutagen
+Vcs-Browser: https://salsa.debian.org/python-team/modules/mutagen
+Vcs-Git: https://salsa.debian.org/python-team/modules/mutagen.git
+Directory: quodlibet-stable
+Package-List:
+ python3-mutagen deb python optional arch=all
+Checksums-Sha256:
+ bad816fe3c86135f0bb40a4506ce5cde5006e2f56fbe166371483eb08c959a81 2142 mutagen_1.47.0-0~ppa0~quodlibet~stable.dsc
+ 34ea2f26f4ba1abf25879fe1c25065ef2da2550f9fc320d7bc760b303c927490 1273279 mutagen_1.47.0.orig.tar.gz
+ aafd949efa97e816d69631b3f92ab54a03622ea99c2f33b6b1a5a24ae392410c 2000 mutagen_1.47.0-0~ppa0~quodlibet~stable.debian.tar.xz
+
+Package: quodlibet
+Format: 3.0 (quilt)
+Binary: exfalso, quodlibet
+Architecture: all
+Version: 4.6.0-0~ppa0~quodlibet~stable
+Maintainer: Ondřej Kuzník <ondra@mistotebe.net>
+Uploaders: Christine Spang <christine@debian.org>, Tristan Seligmann <mithrandi@debian.org>
+Standards-Version: 3.9.2.0
+Build-Depends: debhelper (>= 9), dh-python, python3-all (>= 3.8), quilt, libgtk-3-bin
+Homepage: http://code.google.com/p/quodlibet/
+Vcs-Browser: http://git.debian.org/?p=collab-maint/quodlibet.git
+Vcs-Git: git://git.debian.org/git/collab-maint/quodlibet
+Directory: quodlibet-stable
+Package-List:
+ exfalso deb sound optional arch=all
+ quodlibet deb sound optional arch=all
+Checksums-Sha256:
+ 7ddb0bcaebfff65192f899eb0ebb84e0838b7e8f0687337df522fdcd44157d99 2128 quodlibet_4.6.0-0~ppa0~quodlibet~stable.dsc
+ 151780ff5d3ee366bc6674b10176ba22b0d26a86177a736b79f14b38e45ac585 5718800 quodlibet_4.6.0.orig.tar.gz
+ a196278f6aa29be30401b8cdc97431675946baddeeb25d1ad815481a460a6aa7 2768 quodlibet_4.6.0-0~ppa0~quodlibet~stable.debian.tar.xz
+

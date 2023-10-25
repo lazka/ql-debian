@@ -1,0 +1,17 @@
+Origin: lazka
+Label: lazka
+Suite: quodlibet-stable
+Codename: quodlibet-stable
+Date: Wed, 25 Oct 2023 19:36:59 UTC
+Architectures: all i386 amd64
+Acquire-By-Hash: yes
+Description: Quod Libet debian repo
+SHA256:
+ da24b6d89632deae4bcfac6ac567349a702554ce3e9d4f7ae8481ccc713cc1d0            4217 Packages
+ 68eec8bf8f5b2d0cefede1b790f0f4080dcd63c1320ad28234ae2e648322d9c2            1940 Packages.xz
+ 1a6927bf673d39df13f04b57d3ebb7a9268089d9decc71608a4cecddb134368f            2067 Sources
+ d8762863a54c9c8e4c490903a2338e7c1458bcfa2c5c50d7fc5afc0444cf7d5e            1008 Sources.xz
+ 6a6934e4ffcdfc77b6ae3b48b788638e2275730d3733b015f10b515104d03490           44737 Contents-i386
+ d2c530cdb82e46b0687ed38573d86f8379983d0fa6d3b47f1c27dbca9b10c5dc            3924 Contents-i386.xz
+ 6a6934e4ffcdfc77b6ae3b48b788638e2275730d3733b015f10b515104d03490           44737 Contents-amd64
+ d2c530cdb82e46b0687ed38573d86f8379983d0fa6d3b47f1c27dbca9b10c5dc            3924 Contents-amd64.xz
